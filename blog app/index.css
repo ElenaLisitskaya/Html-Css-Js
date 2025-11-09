@@ -1,0 +1,89 @@
+body {
+   font-family: 'Inter', sans-serif;
+   width: 100%;
+}
+
+.title {
+   margin: 0 auto;
+   font-family: inherit;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 48px;
+   color: #000000;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.subtitle {
+   font-family: inherit;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 48px;
+   color: #35434D;
+   padding-top: 30px;
+}
+
+.post-title-input {
+   font-family: inherit;
+   display: block;
+   box-sizing: border-box;
+   width: 500px;
+   height: 60px;
+   font-size: 25px;
+   color: #232D33;
+   border: 1px solid #232D33;
+   margin-top: 20px;
+   background-color:  #979899;
+}
+
+.post-text-input {
+   font-family: inherit;
+   display: block;
+   box-sizing: border-box;
+   width: 500px;
+   height: 60px;
+   font-size: 25px;
+   color: #232D33;
+   border: 1px solid #232D33;
+   margin-top: 20px;
+   background-color: #979899;
+}
+
+.new-post-btn {
+   font-family: inherit;
+   box-sizing: border-box;
+   width: 500px;
+   height: 60px;
+   background: #979899;
+   color: #232D33;
+   font-size: 32px;
+   font-weight: 400;
+   border: none;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+.new-post-btn:hover {
+   background: #000000;
+   color:#979899;
+}
+
+.row {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+}
+
+.posts {
+   font-size: 25px;
+   color: #232D33;
+}
+
+.validationMessage {
+   color: red;
+   margin-top: 20px;
+}
+
+.validationMessage_hidden {
+   display: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Blog App</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+   <h1 class="title">BLOG APP</h1>
+
+   <div class="row">
+      <div class="column">
+         <h2 class="subtitle">Новый пост</h2>
+
+         <input 
+            class="js-post-title-input post-title-input"
+            placeholder="Заголовок"
+            type="text">
+
+         <input
+            class="js-post-text-input post-text-input"
+            placeholder="Текст"
+            type="text">
+            
+         <button class="js-new-post-btn new-post-btn">
+            Опубликовать
+         </button>
+
+         <div id="validation__message" class="validationMessage validationMessage_hidden">
+            Длина заголовка не должна превышать 100 символов
+         </div>
+      </div>
+      <div class="column">
+         <h2 class="subtitle">Лента</h2>
+         <div class="js-posts posts">
+            Лента пустая...
+         </div>
+      </div>
+   </div>
+   
+
+   <script src="index.js"></script>
+</body>
+</html>
